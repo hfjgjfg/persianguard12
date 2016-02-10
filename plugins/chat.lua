@@ -1,69 +1,69 @@
 local function run(msg)
 if msg.text == "سلام" then
-	return "سلام علیکم"
+  return "سلام علیکم"
 end
 if msg.text == "Hi" then
-	return "Hello honey"
+  return "Hello honey"
 end
 if msg.text == "Hello" then
-	return "Hi bb"
+  return "Hi bb"
 end
 if msg.text == "hello" then
-	return "Hi honey"
+  return "Hi honey"
 end
 if msg.text == "Salam" then
-	return "Salam aleykom"
+  return "Salam aleykom"
 end
 if msg.text == "salam" then
-	return "va aleykol asalam"
+  return "va aleykol asalam"
 end
 if msg.text == "zac" then
-	return "Barash bezan sak"
+  return "Barash bezan sak"
 end
-if msg.text == "Zac" then
-	return "Barash bezan sak"
+if msg.text == "Mamad" then
+  return "کارتو بگو من به بابایی خودم میگم"
 end
-if msg.text == "ZAC" then
-	return "Barash bezan sak"
+if msg.text == "mamad" then
+  return "کارتو بگو من به بابایی خودم میگم"
 end
-if msg.text == "رنجر" then
-	return "بله?"
+if msg.text == "محمد" then
+  return "کارتو بگو من به بابایی خودم میگم"
 end
-if msg.text == "رنجر" then
-	return "چیه?"
+if msg.text == "mohammad" then
+  return "کارتو بگو من به بابایی خودم میگم"
 end
 if msg.text == "bot" then
-	return "hum?"
+  return "hum?"
 end
 if msg.text == "Bot" then
-	return "Huuuum?"
+  return "Huuuum?"
 end
 if msg.text == "?" then
-	return "Hum??"
+  return "Hum??"
 end
 if msg.text == "بای" then
-	return "بسلامت"
+  return "بسلامت"
 end
 if msg.text == "بای" then
-	return "بای بای"
+  return "بای بای"
 end
 end
 
 return {
-	description = "Chat With Robot Server", 
-	usage = "chat with robot",
-	patterns = {
-		"^سلام",
-		"^[Hh]ello$",
-		"^[Zz]ac$",
-		"^ZAC$",
-		"^[Bb]ot$",
-		"^رنجر$",
-		"^بای$",
-		"^?$",
-		"^[Ss]alam$",
-		}, 
-	run = run,
+  description = "Chat With Robot Server", 
+  usage = "chat with robot",
+  patterns = {
+    "^سلام",
+    "^[Hh]ello$",
+    "^[Mm]ohammad$",
+    "^mamad$",
+    "^[Bb]ot$",
+    "^محمد$",
+    "^بای$",
+    "^?$",
+    "^[Ss]alam$",
+    }, 
+  run = run,
 
-	pre_process = pre_process
+  pre_process = pre_process
 }
