@@ -17,19 +17,19 @@ end
 if msg.text == "salam" then
 	return "va aleykol asalam"
 end
-if msg.text == "zac" then
-	return "Barash bezan sak"
+if msg.text == "Persianguard" then
+	return "هومممم؟؟"
 end
-if msg.text == "Zac" then
-	return "Barash bezan sak"
+if msg.text == "ممد" then
+	return "بابامو چیکارش داری کارتو بگو من خودم میگم کسشر اضافیم نگو"
 end
-if msg.text == "ZAC" then
-	return "Barash bezan sak"
+if msg.text == "ممد" then
+	return "ها کیونی کارت چیه؟"
 end
-if msg.text == "رنجر" then
-	return "بله?"
+if msg.text == "کس عمت" then
+	return "کیرم عمم توکیونت"
 end
-if msg.text == "رنجر" then
+if msg.text == "ممد" then
 	return "چیه?"
 end
 if msg.text == "bot" then
@@ -55,10 +55,10 @@ return {
 	patterns = {
 		"^سلام",
 		"^[Hh]ello$",
-		"^[Zz]ac$",
-		"^ZAC$",
+		"^[Pp]ersianguard$",
+		"^Persianguard$",
 		"^[Bb]ot$",
-		"^رنجر$",
+		"^محمد$",
 		"^بای$",
 		"^?$",
 		"^[Ss]alam$",
